@@ -10,7 +10,7 @@
   "scripts": {
     "start": "node .",
     "build": "tsdown",
-    "build.tsup": "tsup --config ./tsup.config.mts"
+    "postinstall": "npm run build"
   },
   "devDependencies": {
     "tsdown": "^0.18.4",

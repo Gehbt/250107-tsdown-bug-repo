@@ -1,6 +1,6 @@
 import data from "./data.json" with { type: "json" };
 
-// run something
+console.assert(data != undefined, `[${import.meta.url}]: data should not be undefined`);
 
 export default data;
 
