@@ -1,7 +1,8 @@
 import { defineConfig } from "tsdown";
 
 export default defineConfig({
-	format: "cjs",
+	format: "esm",
 	fixedExtension: false,
 	unbundle: true,
+	platform: "node",
 });

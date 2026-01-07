@@ -1,5 +1,7 @@
-import * as getData from "./getData.mjs";
+import * as getData from "./getData.mts";
 
 export function fn() {
   return getData
 }
+
+fn()

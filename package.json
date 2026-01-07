@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "start": "node .",
+    "node.start": "node ./src/index.ts",
     "build": "tsdown",
     "postinstall": "npm run build"
   },
